@@ -18,6 +18,6 @@ int main()
     }
 
     // Display the total number of digits
-    cout << "Number of digits in number : " << digitCounter << endl;
+    cout << "Total number of digits: " << digitCounter << endl;
     return 0;
 }

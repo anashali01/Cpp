@@ -26,6 +26,7 @@ int main(){
         cout<<"5. Exit\n";
         cout<<"Enter your choice: ";
         cin>>choice;
+        
         switch(choice){
             case 1:
                 int element;

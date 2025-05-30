@@ -21,6 +21,7 @@ public:
         head = nullptr;
         size = 0;
     }
+
     void insertFront(int data)
     {
         Node *newnode = new Node(data);
@@ -35,6 +36,7 @@ public:
             this->size++;
         }
     }
+
     void insertBack(int data)
     {
         Node *newnode = new Node(data);
@@ -54,6 +56,7 @@ public:
             this->size++;
         }
     }
+
     void insertIndex(int data, int index)
     {
         Node *newnode = new Node(data);
@@ -98,6 +101,7 @@ public:
         }
        
     }
+
     void deletefront()
     {
         if (head == NULL)
@@ -110,6 +114,7 @@ public:
         delete temp;
         this->size--;
     }
+
     void deleteback()
     {
          if(head == NULL)
@@ -156,6 +161,7 @@ public:
         delete toDelete;
         this->size--;
     }
+    
     void display()
     {
         Node *temp = head;

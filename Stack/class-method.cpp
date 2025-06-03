@@ -5,7 +5,7 @@ class Stack
 public:
     int *arr;
     int top, capacity;
-    Stack::Stack(int capacity)
+    Stack(int capacity)
     {
         this->capacity = capacity;
         this->arr = new int[this->capacity];
